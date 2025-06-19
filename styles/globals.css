@@ -77,4 +77,14 @@ body {
   .device-screen {
     border-radius: 0;
   }
+}
+
+.text-gradient {
+  background: linear-gradient(120deg, #ffffff 0%, #717171 65%, #828282
+   100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 } 
